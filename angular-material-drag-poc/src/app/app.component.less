@@ -1,0 +1,46 @@
+.container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  .header {
+    height: 25%;
+
+    .title {
+      margin: 25px;
+      text-align: center;
+      background-color: lightcoral;
+      height: 75%;
+      font-size: 48px;
+    }
+  }
+
+  .body {
+    display: flex;
+    height: 75%;
+
+    .main {
+      width: 75%;
+      display: flex;
+      flex-wrap: wrap;
+
+      .item {
+        width: 100px;
+        height: 100px;
+        background-color: cornflowerblue;
+        margin: 25px;
+      }
+    }
+
+    .right-menu {
+      width: 25%;
+
+      .dest {
+        width: calc(100% - 50px);
+        height: 50px;
+        background-color: chartreuse;
+        margin: 25px;
+      }
+    }
+  }
+}
